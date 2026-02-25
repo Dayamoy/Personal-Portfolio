@@ -9,7 +9,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Font Awesome 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -29,7 +29,7 @@
 <!-- ==================== NAVBAR ==================== -->
 <nav class="navbar">
   <div class="container">
-    <a href="#" class="nav-logo"><i class="fas fa-terminal"></i> DDS</a>
+    <a href="#" class="nav-logo">Dayamoy</a>
     <div class="nav-links">
       <a href="#about"><i class="fas fa-user"></i> About</a>
       <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
@@ -54,66 +54,56 @@
   <a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a>
 </div>
 
-<!-- ==================== HERO ==================== -->
-<section class="hero">
-  <div class="hero-content">
-    <div class="hero-avatar" data-aos="zoom-in" data-aos-duration="800">
-      <img src="Pictures/ProfilePic.jpeg" alt="Dayamoy Datta Saikat" />
+<!-- ==================== HERO + ABOUT ==================== -->
+<section class="hero" id="about">
+  <div class="hero-split">
+    <!-- LEFT: Profile -->
+    <div class="hero-left" data-aos="fade-right" data-aos-duration="800">
+      <div class="hero-avatar">
+        <img src="Pictures/ProfilePic.jpeg" alt="Dayamoy Datta Saikat" />
+      </div>
+
+      <h1>Dayamoy Datta Saikat</h1>
+
+      <div class="hero-typed-wrap">
+        <span class="typed-text"></span><span class="typed-cursor"></span>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/Dayamoy" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/dayamoy/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:dayamoydatta96@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://scholar.google.com/citations?user=hVI5tMsAAAAJ&hl=en" target="_blank" rel="noopener">
+          <i class="fas fa-graduation-cap"></i> Scholar
+        </a>
+      </div>
     </div>
 
-    <h1 data-aos="fade-up" data-aos-delay="200">Dayamoy Datta Saikat</h1>
+    <!-- RIGHT: About -->
+    <div class="hero-right" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+      <p class="about-desc">
+        I am a current M.S. in Computer Science student at Miami University, Ohio. I am doing research on LLM optimization for secure code generation under the supervision of Dr.&nbsp;James Walden. I have 5+ years of software engineering experience at a global tech company like Samsung, where I worked as a Lead Engineer on the SmartThings iOS platform. I also hold a patent filed at WIPO on automatic IoT device ownership verification.
+      </p>
 
-    <div class="hero-typed-wrap" data-aos="fade-up" data-aos-delay="350">
-      <span class="typed-text"></span><span class="typed-cursor"></span>
-    </div>
-
-    <p class="hero-tagline" data-aos="fade-up" data-aos-delay="450">
-      Bridging industry-grade software engineering with cutting-edge AI research.
-    </p>
-
-    <div class="hero-socials" data-aos="fade-up" data-aos-delay="550">
-      <a href="https://github.com/Dayamoy" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-      <a href="https://www.linkedin.com/in/dayamoy/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-      <a href="mailto:dayamoydatta96@gmail.com">
-        <i class="fas fa-envelope"></i> Email
-      </a>
+      <h3 class="interests-heading"><i class="fas fa-lightbulb"></i> Research Interests</h3>
+      <div class="interest-tags">
+        <span class="interest-tag"><i class="fas fa-robot"></i> LLM Optimization</span>
+        <span class="interest-tag"><i class="fas fa-code"></i> AI for Code Generation</span>
+        <span class="interest-tag"><i class="fas fa-brain"></i> Reinforcement Learning</span>
+        <span class="interest-tag"><i class="fas fa-shield-halved"></i> Cybersecurity</span>
+      </div>
     </div>
   </div>
 
-  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+  <a href="#experience" class="scroll-indicator" aria-label="Scroll down">
     <i class="fas fa-chevron-down"></i>
   </a>
-</section>
-
-<!-- ==================== ABOUT ==================== -->
-<section class="section section-alt" id="about">
-  <div class="container">
-    <div class="section-header" data-aos="fade-up">
-      <h2><i class="fas fa-user"></i> About Me</h2>
-    </div>
-
-    <div class="about-grid">
-      <div class="about-text" data-aos="fade-up" data-aos-delay="100">
-        <p>
-          I am a current M.S. in Computer Science student at <strong>Miami University</strong>, Ohio. I am doing research on <strong>LLM optimization for secure code generation</strong> under the supervision of Dr.&nbsp;James Walden. I have <strong>5+ years of software engineering experience</strong> at a global tech company like <strong>Samsung</strong>, where I worked as a Lead Engineer on the SmartThings iOS platform. I also hold a patent filed at <strong>WIPO</strong> on automatic IoT device ownership verification.
-        </p>
-      </div>
-
-      <div class="about-interests" data-aos="fade-up" data-aos-delay="200">
-        <h3><i class="fas fa-lightbulb"></i> Research Interests</h3>
-        <div class="interest-tags">
-          <span class="interest-tag"><i class="fas fa-robot"></i> LLM Optimization</span>
-          <span class="interest-tag"><i class="fas fa-code"></i> AI for Code Generation</span>
-          <span class="interest-tag"><i class="fas fa-brain"></i> Reinforcement Learning</span>
-          <span class="interest-tag"><i class="fas fa-shield-halved"></i> Cybersecurity</span>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- ==================== EXPERIENCE ==================== -->
@@ -567,6 +557,9 @@
     </a>
     <a href="mailto:dayamoydatta96@gmail.com" aria-label="Email">
       <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=hVI5tMsAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+      <i class="fas fa-graduation-cap"></i>
     </a>
   </div>
   <p>Made with <i class="fas fa-heart"></i> by Dayamoy Datta Saikat &middot; &copy; 2026</p>
