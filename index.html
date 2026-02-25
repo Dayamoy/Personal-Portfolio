@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dayamoy Datta Saikat — Portfolio</title>
+  <meta name="description" content="Dayamoy Datta Saikat — CS Graduate Researcher at Miami University, Ex-Lead Engineer @ Samsung. Focused on LLM optimization, computer security, and distributed systems." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS — Animate On Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<!-- Scroll Progress -->
+<div id="scroll-progress"></div>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#" class="nav-logo"><i class="fas fa-terminal"></i> DDS</a>
+    <div class="nav-links">
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#research"><i class="fas fa-flask"></i> Research</a>
+      <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#skills"><i class="fas fa-wrench"></i> Skills</a>
+      <a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a>
+    </div>
+    <button class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav">
+  <a href="#about"><i class="fas fa-user"></i> About</a>
+  <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+  <a href="#research"><i class="fas fa-flask"></i> Research</a>
+  <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+  <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+  <a href="#skills"><i class="fas fa-wrench"></i> Skills</a>
+  <a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-avatar" data-aos="zoom-in" data-aos-duration="800">
+      <img src="Pictures/ProfilePic.jpeg" alt="Dayamoy Datta Saikat" />
+    </div>
+
+    <h1 data-aos="fade-up" data-aos-delay="200">Dayamoy Datta Saikat</h1>
+
+    <div class="hero-typed-wrap" data-aos="fade-up" data-aos-delay="350">
+      <span class="typed-text"></span><span class="typed-cursor"></span>
+    </div>
+
+    <p class="hero-tagline" data-aos="fade-up" data-aos-delay="450">
+      Bridging industry-grade software engineering with cutting-edge AI research.
+    </p>
+
+    <div class="hero-socials" data-aos="fade-up" data-aos-delay="550">
+      <a href="https://github.com/Dayamoy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/dayamoy/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="mailto:dayamoydatta96@gmail.com">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+    <i class="fas fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          I am a current M.S. in Computer Science student at <strong>Miami University</strong>, Ohio. I am doing research on <strong>LLM optimization for secure code generation</strong> under the supervision of Dr.&nbsp;James Walden. I have <strong>5+ years of software engineering experience</strong> at a global tech company like <strong>Samsung</strong>, where I worked as a Lead Engineer on the SmartThings iOS platform. I also hold a patent filed at <strong>WIPO</strong> on automatic IoT device ownership verification.
+        </p>
+      </div>
+
+      <div class="about-interests" data-aos="fade-up" data-aos-delay="200">
+        <h3><i class="fas fa-lightbulb"></i> Research Interests</h3>
+        <div class="interest-tags">
+          <span class="interest-tag"><i class="fas fa-robot"></i> LLM Optimization</span>
+          <span class="interest-tag"><i class="fas fa-code"></i> AI for Code Generation</span>
+          <span class="interest-tag"><i class="fas fa-brain"></i> Reinforcement Learning</span>
+          <span class="interest-tag"><i class="fas fa-shield-halved"></i> Cybersecurity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EXPERIENCE ==================== -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-briefcase"></i> Experience</h2>
+      <p>Industry and academic roles that shaped my engineering approach</p>
+    </div>
+
+    <div class="timeline">
+      <!-- Student Researcher -->
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3><i class="fas fa-microscope"></i> Student Researcher</h3>
+              <div class="timeline-org"><i class="fas fa-university"></i> Miami University · Advisor: Dr. James Walden</div>
+            </div>
+            <span class="timeline-date"><i class="far fa-calendar"></i> Aug 2025 – Present</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Researching LLM optimization techniques (RLHF, DPO, GRPO) for secure code generation, focusing on synthetic data creation, reward modeling, and parameter-efficient fine-tuning (LoRA).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- GTA -->
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3><i class="fas fa-chalkboard-teacher"></i> Graduate Teaching Assistant</h3>
+              <div class="timeline-org"><i class="fas fa-university"></i> Miami University · CSE 374: Algorithms I</div>
+            </div>
+            <span class="timeline-date"><i class="far fa-calendar"></i> Aug 2025 – Present</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Hold weekly office hours, prepare practice materials, and grade assignments, activities, and exams for classes of 50 (Fall '25) and 70 (Spring '26) students.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Samsung -->
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3><i class="fas fa-building"></i> Lead Engineer</h3>
+              <div class="timeline-org"><i class="fas fa-map-marker-alt"></i> Samsung R&amp;D Institute · Dhaka, Bangladesh</div>
+            </div>
+            <span class="timeline-date"><i class="far fa-calendar"></i> Mar 2020 – Jul 2025</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Led SmartThings iOS nearby-device discovery — parsing BLE/mDNS packets for ownership verification, Wi-Fi provisioning, and cloud registration supporting MQTT, Matter, and Zigbee for 1,000+ device types.</li>
+            <li>Designed MVVM-C &amp; VIPER architectures; built a RAG chatbot that resolved ~40% of Voice-of-Customer connection issues.</li>
+            <li>Implemented thread-safe caching and async dispatch for BLE/mDNS scans, eliminating 70% of redundant network calls; reduced crash rates by 5% via Xcode Instruments memory-leak fixes.</li>
+            <li>Refactored 50+ modules from ReactiveSwift to Swift Concurrency (Async/Await) and migrated unit tests to XCTest, achieving 80%+ test coverage.</li>
+            <li>Co-invented "Automatic Ownership Verification of IoT Devices" — patent filed at WIPO.</li>
+            <li>Mentored 15+ engineers for Samsung's Professional-Level Software Competency Exam; collaborated with teams in South Korea and the United States.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== RESEARCH & PUBLICATIONS ==================== -->
+<section class="section section-alt" id="research">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-flask"></i> Research &amp; Publications</h2>
+      <p>Academic contributions spanning blockchain security, quantum computing, and LLM optimization</p>
+    </div>
+
+    <div class="research-grid">
+
+      <!-- Current Research -->
+      <div class="research-card" data-aos="fade-up">
+        <div class="research-card-icon"><i class="fas fa-microscope"></i></div>
+        <div class="label">Ongoing Research</div>
+        <h3>LLM Optimization for Secure Code Generation</h3>
+        <div class="description">
+          Exploring RLHF, DPO, and GRPO techniques for aligning large language models toward generating secure code. Building synthetic data pipelines and reward models with parameter-efficient fine-tuning via LoRA.
+        </div>
+        <span class="research-link"><i class="fas fa-spinner fa-pulse"></i> In Progress</span>
+      </div>
+
+      <!-- Patent -->
+      <div class="research-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="research-card-icon"><i class="fas fa-certificate"></i></div>
+        <div class="label">Patent (WIPO)</div>
+        <h3>A Method of Automatic Ownership Verification of IoT Devices</h3>
+        <div class="authors">Golam Rabbi, <strong>Dayamoy Datta Saikat</strong>, Md. Rakib Hasan, Ashis Chakraborty</div>
+        <div class="venue">Accepted internally by Samsung · Filing in progress at WIPO</div>
+      </div>
+
+      <!-- IEEE TrustCom -->
+      <div class="research-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="research-card-icon"><i class="fas fa-file-lines"></i></div>
+        <div class="label">Publication · 2020</div>
+        <h3>Modelling Attacks in Blockchain Systems using Petri Nets</h3>
+        <div class="authors">Md Shahriar, Faisal H. Bappy, A. K. M. Hossain, <strong>Dayamoy Saikat</strong>, Md. Sadek Ferdous, M. Chowdhury, Md Bhuiyan</div>
+        <div class="venue">IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom 2020)</div>
+        <a href="https://www.researchgate.net/publication/345864834_Modelling_Attacks_in_Blockchain_Systems_using_Petri_Nets" target="_blank" rel="noopener" class="research-link">
+          View Paper <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Poster -->
+      <div class="research-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="research-card-icon"><i class="fas fa-image"></i></div>
+        <div class="label">Poster · 2019</div>
+        <h3>Quantum Resource Estimation to Break Blockchain Protocols using ECC</h3>
+        <div class="venue">6th International Conference on Networking, Systems and Security (NSysS 2019)</div>
+        <a href="https://drive.google.com/file/d/1AebSh6ZocmLkskiDMR6Wp80v29tQ4dPt/view?usp=sharing" target="_blank" rel="noopener" class="research-link">
+          View Poster <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Thesis -->
+      <div class="research-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="research-card-icon"><i class="fas fa-book"></i></div>
+        <div class="label">Undergraduate Thesis · 2019</div>
+        <h3>Quantum Resource Estimation to Break Blockchain Protocols using Elliptic Curve Cryptography</h3>
+        <div class="description">
+          Investigated potential vulnerability of blockchain protocols secured by ECC. Designed basic quantum circuits using Qiskit in Python, estimating the quantum resources an attacker would need to undermine blockchain's decentralized security.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-code"></i> Projects</h2>
+      <p>Hands-on work bridging AI, systems engineering, and security</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- AI Code Reviewer -->
+      <div class="project-card" data-aos="fade-up">
+        <div class="project-card-img">
+          <img src="Pictures/ai_code_reviewer_image.jpg" alt="AI Code Reviewer" />
+          <div class="overlay"></div>
+        </div>
+        <div class="project-card-body">
+          <h3><i class="fas fa-robot"></i> AI Code Reviewer</h3>
+          <p class="description">
+            A Hybrid RAG-based automated code-review system trained on 268K code-review samples. Combines dense retrieval (FAISS + CodeBERT embeddings) with sparse retrieval (BM25) via Reciprocal Rank Fusion. Optimized with FAISS IVF indexing for 7× query speedup, MongoDB for metadata storage (15× memory reduction), and benchmarked across 4 LLMs — achieving CodeBLEU of 0.3335 with Qwen 3B.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+            <span class="tech-pill"><i class="fas fa-brain"></i> FAISS</span>
+            <span class="tech-pill"><i class="fas fa-code"></i> CodeBERT</span>
+            <span class="tech-pill"><i class="fas fa-database"></i> MongoDB</span>
+            <span class="tech-pill"><i class="fas fa-search"></i> BM25</span>
+            <span class="tech-pill"><i class="fas fa-robot"></i> DeepSeek</span>
+            <span class="tech-pill"><i class="fas fa-microchip"></i> Qwen</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/AlexAuss/AI-Code-Reviewer" target="_blank" rel="noopener" class="btn-primary">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ML IDS -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="project-card-img">
+          <img src="Pictures/ml_ids_image.jpg" alt="ML-Based Intrusion Detection System" />
+          <div class="overlay"></div>
+        </div>
+        <div class="project-card-body">
+          <h3><i class="fas fa-shield-halved"></i> ML-Based Intrusion Detection System</h3>
+          <p class="description">
+            Built an Intrusion Detection System using machine learning to classify network traffic as benign or malicious. Trained on the CICIDS 2017 benchmark dataset — one of the most comprehensive publicly available datasets for network intrusion detection research. Applied feature engineering, model selection, and evaluation to deliver reliable anomaly detection.
+          </p>
+          <div class="project-tech">
+            <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+            <span class="tech-pill"><i class="fas fa-brain"></i> Scikit-learn</span>
+            <span class="tech-pill"><i class="fas fa-chart-bar"></i> Pandas</span>
+            <span class="tech-pill"><i class="fas fa-chart-line"></i> NumPy</span>
+            <span class="tech-pill"><i class="fas fa-network-wired"></i> CICIDS 2017</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Dayamoy/ML-Project_IDS" target="_blank" rel="noopener" class="btn-primary">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EDUCATION ==================== -->
+<section class="section section-alt" id="education">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    </div>
+
+    <div class="education-grid">
+      <!-- Miami University -->
+      <div class="education-card" data-aos="fade-up">
+        <div class="education-icon"><i class="fas fa-university"></i></div>
+        <div class="education-info">
+          <h3>Miami University</h3>
+          <div class="degree">Master of Science in Computer Science (MSCS)</div>
+          <div class="meta">
+            <span><i class="fas fa-map-marker-alt"></i> Oxford, Ohio</span>
+            <span><i class="far fa-calendar"></i> Aug 2025 – Present</span>
+          </div>
+          <div class="gpa-badge"><i class="fas fa-star"></i> GPA: 3.9 / 4.0</div>
+        </div>
+      </div>
+
+      <!-- SUST -->
+      <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="education-icon"><i class="fas fa-university"></i></div>
+        <div class="education-info">
+          <h3>Shahjalal University of Science &amp; Technology</h3>
+          <div class="degree">B.Sc. in Computer Science &amp; Engineering</div>
+          <div class="meta">
+            <span><i class="fas fa-map-marker-alt"></i> Sylhet, Bangladesh</span>
+            <span><i class="far fa-calendar"></i> Dec 2015 – Dec 2019</span>
+          </div>
+          <div class="gpa-badge"><i class="fas fa-star"></i> CGPA: 3.79 / 4.0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SKILLS ==================== -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-wrench"></i> Technical Skills</h2>
+    </div>
+
+    <div class="skills-container">
+      <!-- Languages -->
+      <div class="skill-group" data-aos="fade-up">
+        <div class="skill-group-header">
+          <i class="fas fa-code"></i>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+          <span class="skill-pill"><i class="fas fa-copyright"></i> C++</span>
+          <span class="skill-pill"><i class="fab fa-swift"></i> Swift</span>
+          <span class="skill-pill"><i class="fas fa-copyright"></i> C</span>
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-group-header">
+          <i class="fas fa-brain"></i>
+          <h3>AI / ML</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fas fa-robot"></i> RLHF (DPO / GRPO)</span>
+          <span class="skill-pill"><i class="fas fa-sliders"></i> PEFT / LoRA</span>
+          <span class="skill-pill"><i class="fas fa-database"></i> RAG</span>
+          <span class="skill-pill"><i class="fas fa-comment-dots"></i> Prompt Engineering</span>
+        </div>
+      </div>
+
+      <!-- Frameworks & Tools -->
+      <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-group-header">
+          <i class="fas fa-layer-group"></i>
+          <h3>Frameworks &amp; Tools</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fas fa-fire"></i> PyTorch</span>
+          <span class="skill-pill"><i class="fas fa-table"></i> NumPy</span>
+          <span class="skill-pill"><i class="fas fa-chart-bar"></i> Pandas</span>
+          <span class="skill-pill"><i class="fab fa-swift"></i> ReactiveSwift</span>
+          <span class="skill-pill"><i class="fas fa-bolt"></i> Swift Concurrency</span>
+          <span class="skill-pill"><i class="fas fa-mobile-alt"></i> UIKit</span>
+          <span class="skill-pill"><i class="fas fa-atom"></i> Qiskit</span>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="skill-group" data-aos="fade-up">
+        <div class="skill-group-header">
+          <i class="fas fa-database"></i>
+          <h3>Databases</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fas fa-leaf"></i> MongoDB</span>
+          <span class="skill-pill"><i class="fas fa-magnifying-glass"></i> FAISS</span>
+          <span class="skill-pill"><i class="fas fa-search"></i> BM25</span>
+        </div>
+      </div>
+
+      <!-- Others -->
+      <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-group-header">
+          <i class="fas fa-puzzle-piece"></i>
+          <h3>Others</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fas fa-sitemap"></i> Software Architecture</span>
+          <span class="skill-pill"><i class="fab fa-git-alt"></i> Git</span>
+          <span class="skill-pill"><i class="fas fa-users"></i> Agile / Scrum</span>
+          <span class="skill-pill"><i class="fas fa-project-diagram"></i> Data Structures</span>
+          <span class="skill-pill"><i class="fas fa-sort-amount-up"></i> Algorithms</span>
+          <span class="skill-pill"><i class="fab fa-linux"></i> Linux</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ACHIEVEMENTS ==================== -->
+<section class="section section-alt" id="achievements">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <h2><i class="fas fa-trophy"></i> Achievements</h2>
+    </div>
+
+    <div class="achievements-grid">
+      <!-- SWC Certification -->
+      <div class="achievement-card" data-aos="fade-up">
+        <div class="achievement-icon gold"><i class="fas fa-award"></i></div>
+        <div class="achievement-info">
+          <h4>Samsung SWC Professional Certification</h4>
+          <p>Achieved Samsung's Software Competency Test at the Professional level.</p>
+          <a href="https://drive.google.com/file/d/1RgZyf-13PVw19-eaICpSWin6yh116hne/view?usp=sharing" target="_blank" rel="noopener">
+            View Certificate <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Excellence Award -->
+      <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="achievement-icon gold"><i class="fas fa-medal"></i></div>
+        <div class="achievement-info">
+          <h4>Samsung Excellence Award (2022)</h4>
+          <p>Received for outstanding contributions to project work at Samsung R&amp;D.</p>
+          <a href="https://drive.google.com/file/d/1MGGuPiLVfrCEe3ePWz6FM3Xe3CIcC9zM/view?usp=sharing" target="_blank" rel="noopener">
+            View Award <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Problem Setter -->
+      <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="achievement-icon purple"><i class="fas fa-puzzle-piece"></i></div>
+        <div class="achievement-info">
+          <h4>Problem Setter — SRBD Code Contest</h4>
+          <p>Set competitive programming problems for Samsung R&amp;D Bangladesh's annual contest for three consecutive years (2022, 2023, 2024).</p>
+          <a href="https://drive.google.com/file/d/1N29v9OdyNVYrGZpKsm92WOcIMJ8Ma2FH/view?usp=sharing" target="_blank" rel="noopener">
+            View Details <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- ICPC -->
+      <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="achievement-icon blue"><i class="fas fa-flag"></i></div>
+        <div class="achievement-info">
+          <h4>ICPC Dhaka Regional (2016 – 2018)</h4>
+          <p>Competed in the ACM ICPC Dhaka Regional for three consecutive years.</p>
+          <a href="https://drive.google.com/file/d/1O5QHOD8f1tE6IewTTM6Y0335S1YcIM_f/view?usp=sharing" target="_blank" rel="noopener">
+            2016 <i class="fas fa-external-link-alt"></i>
+          </a>
+          &nbsp;·&nbsp;
+          <a href="https://drive.google.com/file/d/1vrI9qfdyj9awzLAyINRQm2s1e62nDPJM/view?usp=sharing" target="_blank" rel="noopener">
+            2017 <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mentoring -->
+      <div class="achievement-card" data-aos="fade-up">
+        <div class="achievement-icon green"><i class="fas fa-people-arrows"></i></div>
+        <div class="achievement-info">
+          <h4>Engineering Mentorship</h4>
+          <p>Mentored 15+ engineers to achieve Samsung's Professional-Level Software Competency certification.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Online Judges -->
+    <div class="section-header" data-aos="fade-up" style="margin-top: 64px;">
+      <h2><i class="fas fa-laptop-code"></i> Competitive Programming</h2>
+      <p>850+ problems solved across platforms</p>
+    </div>
+
+    <div class="judges-grid">
+      <!-- LeetCode -->
+      <div class="judge-card" data-aos="fade-up">
+        <i class="fas fa-code"></i>
+        <h4>LeetCode</h4>
+        <div class="rating">1736</div>
+        <div class="solved">200+ solved</div>
+        <a href="https://leetcode.com/u/Dayamoy/" target="_blank" rel="noopener">
+          <i class="fas fa-user"></i> Dayamoy <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <!-- Codeforces -->
+      <div class="judge-card" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-code"></i>
+        <h4>Codeforces</h4>
+        <div class="rating">1555</div>
+        <div class="solved">200+ solved</div>
+        <a href="https://codeforces.com/profile/dayamoydatta96" target="_blank" rel="noopener">
+          <i class="fas fa-user"></i> dayamoydatta96 <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <!-- VJudge -->
+      <div class="judge-card" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-code"></i>
+        <h4>VJudge</h4>
+        <div class="rating">450+</div>
+        <div class="solved">problems solved</div>
+        <a href="https://vjudge.net/user/Dayamoy" target="_blank" rel="noopener">
+          <i class="fas fa-user"></i> Dayamoy <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="footer-socials">
+    <a href="https://github.com/Dayamoy" target="_blank" rel="noopener" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/dayamoy/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="mailto:dayamoydatta96@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+  <p>Made with <i class="fas fa-heart"></i> by Dayamoy Datta Saikat &middot; &copy; 2026</p>
+</footer>
+
+<!-- Scroll to Top -->
+<button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
