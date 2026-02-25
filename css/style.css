@@ -216,7 +216,7 @@ ul {
 
 /* ---------- Sections ---------- */
 .section {
-  padding: 92px 24px;
+  padding: 80px 24px;
 }
 
 .section-alt {
@@ -230,7 +230,7 @@ ul {
 
 .section-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .section-header h2 {
@@ -260,7 +260,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 24px 150px;
+  padding: 80px 24px 60px;
   position: relative;
   background: linear-gradient(135deg, var(--bg-white) 0%, var(--bg-light) 50%, var(--primary-bg) 100%);
   overflow: hidden;
